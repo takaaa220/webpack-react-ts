@@ -1,0 +1,10 @@
+{
+  "plugins": ["stylelint-order", "stylelint-prettier"],
+  "extends": ["stylelint-config-standard", "./node_modules/prettier-stylelint/config.js"],
+  "ignoreFiles": ["**/node_modules/**"],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "declaration-empty-line-before": null,
+    "no-missing-end-of-source-newline": null
+  }
+}
